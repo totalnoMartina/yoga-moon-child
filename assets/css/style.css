@@ -113,12 +113,19 @@ p {
     border-radius: 35%;
 }
 
-.link-nav:hover {
+.hvr-sweep-to-bottom:before {
+    background: rgba(52, 3, 85, 0.5);
+    border-radius: 30%;
+    height: 45px;
+}
+
+/* .link-nav:hover {
     color: #331f2f;
     border-radius: 35%;
     background-color: #ddfaef;
     opacity: 85%;
-}
+} */
+
 
 .links-text {
     color: #e20561;
