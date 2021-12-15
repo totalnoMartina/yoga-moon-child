@@ -19,6 +19,8 @@ header>h1 {
     text-align: center;
     font-size: 100px;
     letter-spacing: 2px;
+    color: #090e3f;
+    opacity: 55%;
 }
 
 .language {
