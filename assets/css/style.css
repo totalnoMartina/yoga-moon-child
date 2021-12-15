@@ -128,11 +128,11 @@ p {
 
 
 .links-text {
-    color: #e20561;
+    color: #69052f;
 }
 
 .links-text:hover {
-    background-color: white;
+    background-color: rgba(52, 3, 85, 0.5);
 }
 
 #signature {
@@ -229,12 +229,13 @@ input[type="submit"]:hover {
 footer {
     text-align: center;
     font-size: 30px;
-    word-spacing: 5px;
+    word-spacing: 30px;
     background: linear-gradient(90deg, rgb(141, 55, 211), #ffff, rgb(207, 58, 108));
     position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
+    margin-left: 25px;
     margin-bottom: 0px;
     padding: 0.2em;
 }
