@@ -32,7 +32,7 @@ header>h1 {
 
 body {
     color: #11010e;
-    background-color: #9f6eaf;
+    background: linear-gradient(#db1d7c, #838cee);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;

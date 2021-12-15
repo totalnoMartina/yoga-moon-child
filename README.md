@@ -141,3 +141,5 @@ The form was helped to be created by Dominika in text, offers, prices and struct
 # Media
 
 All images are provided by Dominka Urbanska and I was given permission to use it on this site. There is an image of Dali Dhamma, yoga teacher which was taken from his [website](https://bookretreats.com/teacher/dali-dhamma).
+
+The linear gradient code was taken from [here](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient())
