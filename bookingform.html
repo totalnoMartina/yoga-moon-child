@@ -11,6 +11,19 @@
 
     <title>Moon Child Yoga</title>
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logos/logo-circle.png">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        var templateParams = {
+            name: "Dominika",
+            notes: "I would like to know more on how to book a yoga class with you?"
+        };
+
+        (function() {
+            emailjs.init("user_sSmdx9xKVFy8n9mXqS1eu");
+        })();
+    </script>
+
 </head>
 
 <body>
@@ -33,7 +46,7 @@
     <img src="assets/images/virtual-reality.jpg" alt="poster of peaceful meditative pose of yoga teacher" id="poster-book">
     <!-- booking form -->
 
-    <form>
+    <form onsubmit="return sendMail(this);" method="POST">
         <h1>Book Here!</h1>
         <label for="name">First Name</label>
         <input type="text" id="name" class="details" required>
@@ -42,7 +55,7 @@
         <input type="text" id="last_name" class="details" required>
         <br>
         <label for="email">Your E-mail</label>
-        <input type="email" id="email" class="details" required>
+        <input type="emailaddress" id="email" class="details" required>
         <p>Receive updates</p>
         <input type="checkbox">
         <br>
@@ -84,7 +97,7 @@
         <p>Clicking on the "Submit", your class is now booked!
             Please check Your E-mail for the confirmation and time arrangements
         </p>
-        <input type="submit">
+        <input type="submit" onClick='sendingDone()'>
     </form>
     <!-- footer -->
 
@@ -96,6 +109,7 @@
     <!-- font awesome script -->
 
     <script src="https://kit.fontawesome.com/0ab8070b0e.js" crossorigin="anonymous"></script>
+    <script src="assets/js/sendEmail.js"></script>
 </body>
 
 </html>
